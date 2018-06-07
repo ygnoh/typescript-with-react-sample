@@ -5,7 +5,10 @@ class App extends React.Component {
   public render() {
     return (
       <div>
-        <Profile />
+        <Profile
+          name="name"
+          job="job"
+        />
       </div>
     );
   }
