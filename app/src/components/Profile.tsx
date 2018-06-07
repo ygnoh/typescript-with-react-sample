@@ -5,7 +5,7 @@ interface Props {
   job: string;
 }
 
-const Profile = ({name, job}: Props) => (
+const Profile: React.SFC<Props> = ({name, job}: Props) => (
   <div>
     <h1>프로필</h1>
     <div>
