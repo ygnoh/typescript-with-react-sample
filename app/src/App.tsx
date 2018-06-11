@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Counter from './components/Counter';
 import Profile from './components/Profile';
+import CounterContainer from 'containers/CounterContainer';
 import TodoList from './components/TodoList';
 
 class App extends React.Component {
@@ -11,7 +11,7 @@ class App extends React.Component {
           name="name"
           job="job"
         />
-        <Counter />
+        <CounterContainer />
         <TodoList />
       </div>
     );
